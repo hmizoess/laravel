@@ -28,6 +28,6 @@ class create extends Controller
             'email'=>$email,
             'password'=>$password,
         ]);
-        return redirect()->route('login.afficher')->with('success','votre compte est bien crée.');
+        return redirect()->route('login.afficher');
     }
 }

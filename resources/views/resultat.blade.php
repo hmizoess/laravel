@@ -12,6 +12,7 @@
             <ul>
                 <li><a href="{{ route('home') }}">Accueil</a></li>
                 <li><a href="{{ route('calculer.retraite') }}">Faire un autre calcul</a></li>
+                <li><a href="{{ route('plus.info') }}">Afficher Details</a></li>
             </ul>
         </nav>
     </header>
